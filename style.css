@@ -1544,7 +1544,11 @@ form :where(input, textarea) {
 	border: 1px solid var(--border-color);
 	outline: 0;
 }
-
+form label {
+	font-weight: var(--fw5);
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
 
 
 
