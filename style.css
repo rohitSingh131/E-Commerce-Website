@@ -398,6 +398,7 @@ nav .fly-item {
 	width: 60px;
 }
 .dpt-menu > ul > li > a {
+	display: flex;
 	font-size: var(--font-small);
 	height: 46px;
 	align-items: center;
@@ -1759,7 +1760,7 @@ form label {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: linear-gradient(90deg, rgba(225,225,225,1) 0%, rgba(225,225,225,0));
+		background: linear-gradient(60deg, rgba(225,225,225,1) 0%, rgba(225,225,225,0) 50%);
 	}
 	.dpt-menu .mega {
 		width: auto;
